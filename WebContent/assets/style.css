@@ -1,0 +1,202 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.mainpage{
+	display: flex;
+	background: url('Main Page.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+}
+.affection{
+	display: flex;
+	background: url('Affection.svg');
+		background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+}
+.enemies{
+		display: flex;
+	background: url('Enemies.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+.friends{
+		display: flex;
+	background: url('Friends.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+.lovers{
+		display: flex;
+	background: url('Lovers.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+.marriage{
+		display: flex;
+	background: url('Marriage.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+.siblings{
+		display: flex;
+	background: url('Sisters.svg');
+	background-size: 100%;
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	background-repeat: no-repeat;
+}
+.main {
+		
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	padding: 59px 0px 0px 80px;
+	width: 41.41px;
+	height: 43px;
+}
+
+.title {
+	position: absolute;
+	width: 199px;
+	height: 60px;
+	/* left: 130px;
+top: 54px; */
+	padding: 54px 0px 0px 130px; font-family : Muli;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 60px;
+	display: flex;
+	align-items: flex-end;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	font-family: Muli;
+}
+
+.content {
+	position: absolute;
+	width: 631px;
+	height: 120px;
+	/* left: 80px;
+top: 244px; */
+	padding: 244px 0px 0px 80px; font-family : Muli;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 60px;
+	/* or 167% */
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	font-family: Muli;
+}
+
+.content-small {
+	position: absolute;
+	width: 276px;
+	height: 55px;
+	/* left: 80px;
+top: 377px; */
+	padding: 377px 0px 0px 80px; font-family : Muli;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 55px;
+	/* identical to box height, or 306% */
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	font-family: Muli;
+}
+
+.myform {
+	display: flex;
+	align-items: center;
+	padding: 464px 0px 0px 80px;
+	position: absolute;
+}
+
+.myform input {
+	position: absolute;
+	width: 400px;
+	height: 50px;
+	/* left: 80px;
+	top: 525px; */
+	font-family: Muli;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	background: #FFFFFF;
+	border: 0.5px solid #000000;
+	box-sizing: border-box;
+	border-radius: 40px;
+	text-indent: 3rem;
+	z-index: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.bg-image {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	/* left: 80px;
+top: 465px; */
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.textbox-2 {
+	padding: 50px 0px 0px 0px;
+}
+
+.button {
+	position: absolute;
+	width: 171px;
+	height: 48px;
+	/* left: 80px;
+top: 615px; */
+	background: #F05136;
+	margin: 50px 0px 0px;
+	border-radius: 2rem;
+}
+.footer{
+	   display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	margin: 275px 0px 0px 80px;
+	left:-120px;
+	top:450px;
+	font-size: 18px;
+	font-family: Ubuntu;
+	font-style: normal;
+	z-index:9;
+}
